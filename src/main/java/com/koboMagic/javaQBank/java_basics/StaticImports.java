@@ -16,3 +16,5 @@ public class StaticImports {
 // import static java.lang.Integer.MAX_VALUE;
 //You must specify the full package name of the class that you are importing (just like the regular import statement).
 // So, import static Integer.*; is wrong.
+
+//Using a fully qualified class name always works irrespective of whether you import the package or not
