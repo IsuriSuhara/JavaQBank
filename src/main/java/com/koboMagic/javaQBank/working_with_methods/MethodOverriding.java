@@ -24,3 +24,5 @@ public class MethodOverriding {
 //"public abstract void teach(String s)" would have been valid if class Prof had been declared abstract.
 
 //2 It overloads the teach() method instead of overriding it.
+
+//a method with the same name and same number and type of arguments exists in the super class and sub class.
