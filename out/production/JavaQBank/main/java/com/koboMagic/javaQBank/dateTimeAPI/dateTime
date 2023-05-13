@@ -1,0 +1,4 @@
+The LocalTime class doesn't have any visible constructor, so we can’t use new keyword with them. So options A and B are
+incorrect.
+Which of the following code will print current time?
+A. System.out.print(new LocalTime().now());
