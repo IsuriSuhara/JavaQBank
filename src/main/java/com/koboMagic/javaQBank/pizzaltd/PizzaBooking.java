@@ -1,6 +1,5 @@
-package main.pizzaltd;
+package main.java.com.koboMagic.javaQBank.pizzaltd;
 
-import java.math.BigDecimal;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;

@@ -1,4 +1,4 @@
-package main.interview;
+package main.java.com.koboMagic.javaQBank.interview;
 
 import java.util.ArrayList;
 
