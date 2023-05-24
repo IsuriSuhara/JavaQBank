@@ -7,20 +7,21 @@ public class Arr {
     public static void findMissingInteger(int[] arr) {
         if (arr == null) return;
         boolean found;
-        for (int i = 1; i <= arr.length; i++) {
+        for (int i = 1; i <= arr.length + 1; i++) {
             found = false;
             for (int ele : arr) {
                 if (ele == i) {
-                    found = false;
+                    found = true;
                     break;
                 }
-                found = true;
             }
-            if (found) {
+            if (!found) {
                 System.out.println(i);
+                break;
             }
         }
     }
+
 
     //For a given array containing positive integers, write a code to return the sum of the elements of the array.
     public static Integer sumIntegerArr(int[] arr) {
@@ -152,7 +153,8 @@ public class Arr {
 
     public static void main(String[] args) {
         int[] arr = {1, 5, 3, 2, -3, 2, 7, 10, 5, 3, 7, 1, 1, -6, -10};
-//        findMissingInteger(arr);
+        int[] arr1 = {1,2,3,5,6,7,8,9};
+        findMissingInteger(arr1);
 //        Integer sum = sumIntegerArr(arr);
 //        int[] rotArr=rotateArr(arr, 2);
 //        System.out.println();
@@ -160,6 +162,6 @@ public class Arr {
 //        deleteDuplicates(arr);
 //        findMaxMin(arr);
 //        sortWaveFasion(arr);
-        findMaxSubArray(arr);
+//        findMaxSubArray(arr);
     }
 }
