@@ -6,8 +6,12 @@ class OverloadingTest {
         System.out.println("m1 int");
     }
 
-    void m1(double x) {
-        System.out.println("m1 double");
+//    void m1(double x) {
+//        System.out.println("m1 double");
+//    }
+
+    void m1(Double x) {
+        System.out.println("m1 Double");
     }
 
     void m1(String x) {
@@ -19,7 +23,7 @@ class OverloadingTest {
 public class OverloadingTestClass {
     public static void main(String[] args) {
         OverloadingTest ot = new OverloadingTest();
-        ot.m1(1.0);
+        ot.m1(1);
     }
 }
 
